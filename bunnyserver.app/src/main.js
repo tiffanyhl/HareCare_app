@@ -23,7 +23,7 @@ Handler.bind("/retrieveData", Behavior({
 }));
 
 var ResetButton = BUTTONS.Button.template(function($){ return{
-	right: 0, height:20,
+	right: 10, height:20,
 	contents: [
 		new Label({right:0, height:20, string:"Finished Cleaning", style: labelStyle})
 	],
